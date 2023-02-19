@@ -117,7 +117,7 @@ const LandingSection = () => {
                 <FormErrorMessage>{formik.errors.comment}</FormErrorMessage>
               </FormControl>
               <Button type="submit" colorScheme="purple" width="full">
-                Submit{" "}
+                Submit
                 {isLoading ? (
                   <Spinner
                     thickness="4px"
